@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.172-ea" fx:controller="ui.Controller">
+    <TabPane>
+        <Tab text="Login" closable="false">
+            <VBox>
+                <Text>
+                    <VBox.margin>
+                        <Insets bottom="16.0" left="16.0" right="16.0" top="16.0"/>
+                    </VBox.margin>
+                    Login
+                </Text>
+                <GridPane hgap="4" vgap="4">
+                    <Label GridPane.columnIndex="0">
+                        NIP
+                    </Label>
+                    <TextField GridPane.columnIndex="1">
+                        A
+                    </TextField>
+                    <columnConstraints>
+                        <ColumnConstraints/>
+                        <ColumnConstraints/>
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints/>
+                    </rowConstraints>
+                </GridPane>
+            </VBox>
+        </Tab>
+        <padding>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="8.0"/>
+        </padding>
+    </TabPane>
+</VBox>
